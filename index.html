@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xmf-consult</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- logo quand la page ce recharge  -->
+    <div id="loader">
+      <svg id="logo-animated" viewBox="0 0 400 100">
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+          XMF CONSULT
+        </text>
+      </svg>
+    </div>
+    
+    <!-- navigation -->
+
+    <nav>
+      <div class="nav-logo">
+        <h1>XMF CONSULT</h1>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        &#9776;
+        <!-- icône hamburger (☰) -->
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <ul>
+          <li>
+            <a href="./index.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#fiduciaire"><i class="fas fa-building"></i> Fiduciaire</a>
+          </li>
+          <li>
+            <a href="#services"><i class="fas fa-briefcase"></i> Services</a>
+          </li>
+          <li>
+            <a href="#competences"><i class="fas fa-tasks"></i> Compétences</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li>
+            <a href="./public/pages/link.html"
+              ><i class="fa-solid fa-link"></i> Liens</a
+            >
+          </li>
+          <li>
+            <a href="./public/pages/termes.html"
+              ><i class="fa-solid fa-file-contract"></i> Termes & conditions</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- section 1 image et text -->
+
+    <section class="cards fade-in">
+      <div class="image-box">
+        <img src="./public/img/1.webp" alt="xmf-consult" />
+      </div>
+      <div class="content">
+        <h1 class="title">xmf consult</h1>
+        <div class="divider"></div>
+        <h2 class="subtitle">Bienvenue chez nous</h2>
+      </div>
+    </section>
+    <!-- section 2 LA Fiduciaire -->
+
+    <section id="fiduciaire" class="fade-in">
+      <div class="fid">
+        <img
+          src="./public/img/test.jpg"
+          alt="Illustration fiduciaire"
+          class="fid-img"
+        />
+
+        <div class="info">
+          <h3>La Fiduciaire</h3>
+          <div class="underline"></div>
+
+          <p>
+            Consult a été fondé en 2024 par Xavier Michel, Candidat
+            Expert-Comptable certifié et Conseil Fiscal certifié.
+            <br /><br />
+            Titulaire d’un bachelier en comptabilité option gestion obtenu à
+            l’EPHEC Louvain-la-Neuve en 2012, il termine son stage à l’ITAA
+            (Institute for Tax Advisors and Accountants). Il a commencé sa
+            carrière en 2013 et a acquis une forte expérience diversifiée en
+            matière comptable et fiscale.
+            <br /><br />
+            En tant qu'expert-comptable, je mets mon expertise au service des
+            entreprises, indépendants et particuliers. Mon objectif est de vous
+            accompagner dans la gestion et l’optimisation de vos obligations
+            comptables et fiscales, tout en vous offrant des conseils
+            personnalisés et adaptés à vos besoins spécifiques
+            <br /><br />
+            Comptabilité : Que vous soyez une petite entreprise, une société ou
+            un indépendant, je vous propose un service complet en matière de
+            comptabilité, allant de la gestion des écritures comptables à
+            l’élaboration des bilans et des déclarations fiscales. Je m’assure
+            de la conformité de vos comptes et vous aide à optimiser vos
+            processus internes pour gagner en efficacité.
+            <br /><br />
+            Conseil Fiscal : La fiscalité est un domaine complexe et en
+            constante évolution. Mon rôle est de vous conseiller pour optimiser
+            votre situation fiscale, réduire vos impôts et vous aider à prendre
+            des décisions stratégiques en toute sérénité. Que vous soyez un
+            particulier, un entrepreneur ou une société, je vous guide à travers
+            les différentes démarches fiscales et les opportunités qui s'offrent
+            à vous.
+            <br /><br />
+            Mon approche est basée sur une écoute attentive et une analyse
+            détaillée de vos besoins. En tant qu’expert-comptable, je m’engage à
+            fournir un service de qualité, transparent et réactif. Ensemble,
+            nous mettrons en place des solutions concrètes et adaptées pour
+            favoriser la croissance et la pérennité de votre entreprise, tout en
+            respectant les règles fiscales en vigueur.
+            <br /><br />
+            N'hésitez pas à me contacter pour toute demande d'information ou
+            pour planifier une consultation. Ensemble, simplifions vos démarches
+            comptables et fiscales !
+          </p>
+
+          <div class="badges">
+            <div class="badge">Confiance</div>
+            <div class="badge">Transparence</div>
+            <div class="badge">Performance</div>
+          </div>
+
+          <div class="founder">
+            <img src="./public/img/test.jpg" alt="Fondateur" />
+            <div class="founder-info">
+              <i>LinkedIN</i>
+              <a
+                href="https://www.linkedin.com/in/ton-profil"
+                target="_blank"
+                class="linkedin-icon"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <blockquote class="citation">
+            "Notre engagement est simple : accompagner chaque client comme un
+            partenaire de confiance."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 Nos services -->
+
+    <section id="services" class="fade-left">
+      <div class="services">
+        <h3>NOS SERVICES</h3>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h4>Fiscalité</h4>
+            <p>Optimisation fiscale pour indépendants et PME.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-calculator"></i>
+            <h4>Comptabilité</h4>
+            <p>Gestion complète de votre comptabilité au quotidien.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Conseil d’entreprise</h4>
+            <p>Accompagnement stratégique personnalisé.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4 competences -->
+    <section id="competences" class="fade-right">
+      <div class="competences-container">
+        <h3><i class="fas fa-tasks"></i> Nos Compétences</h3>
+        <div class="competence-grid">
+          <div class="competence-item">
+            <img
+              src="./public/img/analyse-financiere.webp"
+              class="card-img"
+              alt=""
+            />
+            <div class="card-body">
+              <i class="fas fa-chart-line"></i>
+              <h4>Analyse financière</h4>
+              <p>Déclarations fiscales</p>
+              <span class="bullet">✦</span>
+              <p>Déclarations TVA</p>
+              <span class="bullet">✦</span>
+              <p>Assistance lors de contrôles fiscaux</p>
+              <span class="bullet">✦</span>
+              <p>Optimalisation fiscale</p>
+              <span class="bullet">✦</span>
+              <p>Recours, dégrèvements et réclamations</p>
+              <span class="bullet">✦</span>
+              <p>Conciliation fiscale</p>
+              <span class="bullet">✦</span>
+              <p>
+                Demande d’avis préalable sur le régime fiscal d’une opération
+                envisagée
+              </p>
+              <span class="bullet">✦</span>
+              <p>Planification fiscale</p>
+            </div>
+          </div>
+          <div class="competence-item">
+            <img src="./public/img/droit-fiscal.webp" alt="" />
+            <div class="card-body">
+              <i class="fas fa-balance-scale"></i>
+              <h4>Droit fiscal</h4>
+              <p>Accompagnement dans les démarches de lancement d’activité</p>
+              <span class="bullet">✦</span>
+              <p>Tenue de la comptabilité</p>
+              <span class="bullet">✦</span>
+              <p>Organisation des systèmes administratifs et comptable</p>
+              <span class="bullet">✦</span>
+              <p>Vérification et redressement des documents comptables</p>
+              <span class="bullet">✦</span>
+              <p>Assistance au redressement des entreprises</p>
+              <span class="bullet">✦</span>
+              <p>Formalités administratives et publications</p>
+              <span class="bullet">✦</span>
+              <p>Établissement des comptes annuels</p>
+              <span class="bullet">✦</span>
+              <p>
+                Conseil en matière de droit comptable, droit fiscal et droit des
+                sociétés
+              </p>
+              <span class="bullet">✦</span>
+              <p>Élaboration de plans financiers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 5 contact -->
+
+    <section id="contact">
+      <div class="contact-wrapper">
+        <!-- Bloc gauche : formulaire -->
+        <div class="contact-container fade-in">
+          <h3>Contactez-nous</h3>
+          <form action="https://formspree.io/f/TON_ID_FORM" method="POST">
+            <input type="text" name="name" placeholder="Votre nom" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Votre message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+
+        <!-- Bloc droite : image + infos séparées -->
+        <div class="contact-side">
+          <img
+            src="./public/img/2.webp"
+            alt="Illustration contact"
+            class="contact-image"
+          />
+
+          <div class="contact-info-box fade-in">
+            <h4>Nos coordonnées</h4>
+            <p><i class="fas fa-envelope"></i> xavier@xmfconsult.be</p>
+            <p><i class="fas fa-phone-alt"></i> +32 474 38 58 75</p>
+            <p><i class="fas fa-map-marker-alt"></i> Rue de la Bascule 34</p>
+            <p><strong>Horaires :</strong> Lun–Ven : 9h – 17h</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 6 maps -->
+
+    <section id="maps" class="fade-in">
+      <div class="maps-container">
+        <h3><i class="fas fa-map-marker-alt"></i> Nous trouver</h3>
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5041.638815713609!2d4.362877476947951!3d50.81598456097696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4faa8f2cfb1%3A0x735a7b36f463d245!2sRue%20de%20la%20Bascule%2034%2C%201180%20Uccle!5e0!3m2!1sfr!2sbe!4v1742610766325!5m2!1sfr!2sbe"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=Rue+de+la+Bascule+34,+1180+Uccle"
+          target="_blank"
+          class="btn-itineraire"
+        >
+          <i class="fas fa-route"></i> Itinéraire vers notre bureau
+        </a>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section brand">
+          <h2>xmf consult</h2>
+          <p>Expertise comptable & fiscale sur mesure.</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#fiduciaire">Fiduciaire</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./public/pages/link.html">Liens</a></li>
+            <li><a href="./public/pages/rgpd.html">RGPD</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> xavier@xmfconsult.be</p>
+          <p><i class="fas fa-phone-alt"></i> +32 475 12 34 56</p>
+          <div class="socials">
+            <a href="https://linkedin.com/in/..." target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 xmf consult – Tous droits réservés.
+      </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
