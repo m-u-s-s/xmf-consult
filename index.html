@@ -3,7 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>xmf-consult</title>
+    <meta name="description" content="Fiduciaire à Bruxelles. Services comptables, fiscaux et conseils pour indépendants et entreprises. Contactez XMF Consult.">
+    <meta name="robots" content="index, follow">
+    <title>Expert-comptable & Fiduciaire à Bruxelles | XMF Consult</title>
+
+    <!-- script explication google pour etre en haut de la page -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "XMF Consult",
+        "url": "https://xmfconsult.be",
+        "logo": "https://xmfconsult.be/public/img/xavier.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/xavier-michel-14109a69"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+32 475 00 00 00",
+          "contactType": "customer service",
+          "areaServed": "BE",
+          "availableLanguage": ["fr", "nl"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bruxelles",
+          "addressRegion": "Bruxelles-Capitale",
+          "postalCode": "1000",
+          "addressCountry": "BE"
+        }
+      }
+      </script>
+      
+
+      <!-- liens vers autre page et packages -->
     <link rel="stylesheet" href="./public/css/style.css" />
     <link
       rel="stylesheet"
@@ -28,7 +61,7 @@
 
     <nav>
       <div class="nav-logo">
-        <h1>XMF CONSULT</h1>
+        <h1>Fiduciaire & Conseil Fiscal – XMF Consult à Bruxelles</h1>
       </div>
 
       <div class="hamburger" id="hamburger">
@@ -71,7 +104,7 @@
 
     <section class="cards fade-in">
       <div class="image-box">
-        <img src="./public/img/1.webp" alt="xmf-consult" />
+        <img src="./public/img/1.webp" alt="xmf-consult"  loading="lazy" />
       </div>
       <div class="content">
         <h1 class="title">xmf consult</h1>
@@ -88,6 +121,7 @@
           src="./public/img/test.jpg"
           alt="Illustration fiduciaire"
           class="fid-img"
+          loading="lazy"
         />
 
         <div class="info">
@@ -144,7 +178,7 @@
           </div>
 
           <div class="founder">
-            <img src="./public/img/xavier.jpg" alt="Fondateur" />
+            <img src="./public/img/xavier.jpg" alt="Xavier Michel, expert-comptable XMF Consult"  loading="lazy" />
             <div class="founder-info">
               <i>LinkedIN</i>
               <a
@@ -201,6 +235,7 @@
               src="./public/img/analyse-financiere.webp"
               class="card-img"
               alt=""
+              loading="lazy"
             />
             <div class="card-body">
               <i class="fas fa-chart-line"></i>
@@ -226,7 +261,7 @@
             </div>
           </div>
           <div class="competence-item">
-            <img src="./public/img/droit-fiscal.webp" alt="" />
+            <img src="./public/img/droit-fiscal.webp" alt="" loading="lazy" />
             <div class="card-body">
               <i class="fas fa-balance-scale"></i>
               <h4>Droit fiscal</h4>
@@ -287,6 +322,7 @@
             src="./public/img/2.webp"
             alt="Illustration contact"
             class="contact-image"
+            loading="lazy"
           />
 
           <div class="contact-info-box fade-in">
