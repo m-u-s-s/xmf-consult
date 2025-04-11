@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Fiduciaire à Bruxelles. Services comptables, fiscaux et conseils pour indépendants et entreprises. Contactez XMF Consult.">
-    <meta name="robots" content="index, follow">
+    <meta
+      name="description"
+      content="Fiduciaire à Bruxelles. Services comptables, fiscaux et conseils pour indépendants et entreprises. Contactez XMF Consult."
+    />
+    <meta name="robots" content="index, follow" />
     <title>Expert-comptable & Fiduciaire à Bruxelles | XMF Consult</title>
 
     <!-- script explication google pour etre en haut de la page -->
@@ -15,9 +18,7 @@
         "name": "XMF Consult",
         "url": "https://xmfconsult.be",
         "logo": "https://xmfconsult.be/public/img/xavier.jpg",
-        "sameAs": [
-          "https://www.linkedin.com/in/xavier-michel-14109a69"
-        ],
+        "sameAs": ["https://www.linkedin.com/in/xavier-michel-14109a69"],
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+32 475 00 00 00",
@@ -32,12 +33,31 @@
           "addressRegion": "Uccle",
           "postalCode": "1180",
           "addressCountry": "BE"
-        }
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "13:00"
+          }
+        ]
       }
-      </script>
-      
+    </script>
 
-      <!-- liens vers autre page et packages -->
+    <!-- liens vers autre page et packages -->
     <link rel="stylesheet" href="./public/css/style.css" />
     <link
       rel="stylesheet"
@@ -62,7 +82,7 @@
 
     <nav>
       <div class="nav-logo">
-        <h1>Fiduciaire & Conseil Fiscal – XMF Consult à Bruxelles</h1>
+        <h1>Fiduciaire & Conseil Fiscal – XMF Consult</h1>
       </div>
 
       <div class="hamburger" id="hamburger">
@@ -105,7 +125,7 @@
 
     <section class="cards fade-in">
       <div class="image-box">
-        <img src="./public/img/1.webp" alt="xmf-consult"  loading="lazy" />
+        <img src="./public/img/1.webp" alt="xmf-consult" loading="lazy" />
       </div>
       <div class="content">
         <h1 class="title">xmf consult</h1>
@@ -179,7 +199,11 @@
           </div>
 
           <div class="founder">
-            <img src="./public/img/xavier.jpg" alt="Xavier Michel, expert-comptable XMF Consult"  loading="lazy" />
+            <img
+              src="./public/img/xavier.jpg"
+              alt="Xavier Michel, expert-comptable XMF Consult"
+              loading="lazy"
+            />
             <div class="founder-info">
               <i>LinkedIN</i>
               <a
@@ -226,14 +250,14 @@
     </section>
 
     <!-- section 4 competences -->
-     
+
     <section id="competences" class="fade-right">
       <div class="competences-container">
         <h3><i class="fas fa-tasks"></i> Nos Compétences</h3>
         <div class="competence-grid">
           <div class="competence-item">
             <img
-              src="./public/img/analyse-financiere.webp"
+              src="./public/img/analyse.jpg"
               class="card-img"
               alt=""
               loading="lazy"
@@ -262,7 +286,12 @@
             </div>
           </div>
           <div class="competence-item">
-            <img src="./public/img/droit-fiscal.webp" alt="" loading="lazy" />
+            <img
+              src="./public/img/droit-fiscal.webp"
+              class="card-img"
+              alt=""
+              loading="lazy"
+            />
             <div class="card-body">
               <i class="fas fa-balance-scale"></i>
               <h4>Droit fiscal</h4>

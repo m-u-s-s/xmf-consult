@@ -1,98 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RGPD – xmf consult</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
-    
+    <!-- google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "XMF Consult",
+        "url": "https://xmfconsult.be",
+        "logo": "https://xmfconsult.be/public/img/xavier.jpg",
+        "sameAs": ["https://www.linkedin.com/in/xavier-michel-14109a69"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+32 475 00 00 00",
+          "contactType": "customer service",
+          "areaServed": "BE",
+          "availableLanguage": ["fr", "nl"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rue de la Bascule 34",
+          "addressLocality": "Bruxelles",
+          "addressRegion": "Uccle",
+          "postalCode": "1180",
+          "addressCountry": "BE"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "13:00"
+          }
+        ]
+      }
+    </script>
 
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- navigation -->
 
     <nav>
-        <div class="nav-logo">
-          <h1>xmf consult</h1>
+      <div class="nav-logo">
+        <h1>xmf consult</h1>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        &#9776;
+        <!-- icône hamburger (☰) -->
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <ul>
+          <li>
+            <a href="../../index.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="../../index.html#fiduciaire"
+              ><i class="fas fa-building"></i> Fiduciaire</a
+            >
+          </li>
+          <li>
+            <a href="../../index.html#services"
+              ><i class="fas fa-briefcase"></i> Services</a
+            >
+          </li>
+          <li>
+            <a href="../../index.html#competences"
+              ><i class="fas fa-tasks"></i> Compétences</a
+            >
+          </li>
+          <li>
+            <a href="../../index.html#contact"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- RGPD -->
+
+    <section id="rgpd" class="fade-in" style="padding: 60px 20px">
+      <div
+        style="
+          max-width: 1000px;
+          margin: auto;
+          background: #fff;
+          border-radius: 12px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+          padding: 40px;
+        "
+      >
+        <h2
+          style="
+            font-size: 2.2rem;
+            color: #294864;
+            margin-bottom: 30px;
+            text-align: center;
+          "
+        >
+          <i class="fas fa-user-shield"></i> Politique de confidentialité (RGPD)
+        </h2>
+
+        <ul style="margin-bottom: 30px; padding-left: 0">
+          <li>
+            <a href="#donnees" class="bullet">✦</a>
+            <a href="#donnees">Quelles données ?</a>
+          </li>
+          <li>
+            <a href="#utilisation" class="bullet">✦</a>
+            <a href="#utilisation">Utilisation des données</a>
+          </li>
+          <li>
+            <a href="#droits" class="bullet">✦</a>
+            <a href="#droits">Vos droits</a>
+          </li>
+          <li>
+            <a href="#conservation" class="bullet">✦</a>
+            <a href="#conservation">Durée de conservation</a>
+          </li>
+        </ul>
+
+        <h3 id="donnees">
+          <i class="fas fa-database"></i> Quelles données collectons-nous ?
+        </h3>
+        <p>
+          Nom, prénom, adresse e-mail, téléphone, et informations via
+          formulaires.
+        </p>
+
+        <h3 id="utilisation" style="margin-top: 25px">
+          <i class="fas fa-cogs"></i> Comment utilisons-nous vos données ?
+        </h3>
+        <p>
+          Pour répondre à vos demandes, assurer le suivi client ou les
+          obligations légales.
+        </p>
+
+        <h3 id="droits" style="margin-top: 25px">
+          <i class="fas fa-balance-scale"></i> Vos droits
+        </h3>
+        <p>
+          Accès, rectification, suppression. Écrivez-nous à
+          <a href="mailto:xavier@xmfconsult.be">xavier@xmfconsult.be</a>.
+        </p>
+
+        <h3 id="conservation" style="margin-top: 25px">
+          <i class="fas fa-hourglass-half"></i> Durée de conservation
+        </h3>
+        <p>
+          Les données sont conservées uniquement le temps nécessaire au
+          traitement.
+        </p>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a href="../../index.html" class="btn-itineraire">
+            <i class="fas fa-arrow-left"></i> Retour à l'accueil
+          </a>
         </div>
-  
-        <div class="hamburger" id="hamburger">
-          &#9776;
-          <!-- icône hamburger (☰) -->
-        </div>
-  
-        <div class="nav-links" id="nav-links">
-          <ul>
-            <li>
-              <a href="../../index.html"><i class="fas fa-home"></i>Home</a>
-            </li>
-            <li>
-              <a href="../../index.html#fiduciaire"><i class="fas fa-building"></i> Fiduciaire</a>
-            </li>
-            <li>
-              <a href="../../index.html#services"><i class="fas fa-briefcase"></i> Services</a>
-            </li>
-            <li>
-              <a href="../../index.html#competences"><i class="fas fa-tasks"></i> Compétences</a>
-            </li>
-            <li>
-              <a href="../../index.html#contact"><i class="fas fa-envelope"></i> Contact</a>
-            </li>
-
-          </ul>
-        </div>
-      </nav>
-
-
-
-      <!-- RGPD -->
-
-
-      <section id="rgpd" class="fade-in" style="padding: 60px 20px;">
-        <div style="max-width: 1000px; margin: auto; background: #fff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); padding: 40px;">
-          <h2 style="font-size: 2.2rem; color: #294864; margin-bottom: 30px; text-align: center;">
-            <i class="fas fa-user-shield"></i> Politique de confidentialité (RGPD)
-          </h2>
-      
-          <ul style="margin-bottom: 30px; padding-left: 0;">
-            <li><a href="#donnees" class="bullet">✦</a> <a href="#donnees">Quelles données ?</a></li>
-            <li><a href="#utilisation" class="bullet">✦</a> <a href="#utilisation">Utilisation des données</a></li>
-            <li><a href="#droits" class="bullet">✦</a> <a href="#droits">Vos droits</a></li>
-            <li><a href="#conservation" class="bullet">✦</a> <a href="#conservation">Durée de conservation</a></li>
-          </ul>
-      
-          <h3 id="donnees"><i class="fas fa-database"></i> Quelles données collectons-nous ?</h3>
-          <p>Nom, prénom, adresse e-mail, téléphone, et informations via formulaires.</p>
-      
-          <h3 id="utilisation" style="margin-top: 25px;"><i class="fas fa-cogs"></i> Comment utilisons-nous vos données ?</h3>
-          <p>Pour répondre à vos demandes, assurer le suivi client ou les obligations légales.</p>
-      
-          <h3 id="droits" style="margin-top: 25px;"><i class="fas fa-balance-scale"></i> Vos droits</h3>
-          <p>Accès, rectification, suppression. Écrivez-nous à <a href="mailto:xavier@xmfconsult.be">xavier@xmfconsult.be</a>.</p>
-      
-          <h3 id="conservation" style="margin-top: 25px;"><i class="fas fa-hourglass-half"></i> Durée de conservation</h3>
-          <p>Les données sont conservées uniquement le temps nécessaire au traitement.</p>
-      
-          <div style="text-align: center; margin-top: 40px;">
-            <a href="../../index.html" class="btn-itineraire">
-              <i class="fas fa-arrow-left"></i> Retour à l'accueil
-            </a>
-          </div>
-        </div>
-      </section>
-      
+      </div>
+    </section>
 
     <!-- footer -->
 
-    
     <footer>
       <div class="footer-container">
         <div class="footer-section brand">
@@ -117,7 +212,10 @@
           <p><i class="fas fa-envelope"></i> xavier@xmfconsult.be</p>
           <p><i class="fas fa-phone-alt"></i> +32 475 12 34 56</p>
           <div class="socials">
-            <a href="https://www.linkedin.com/in/xavier-michel-14109a69" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/xavier-michel-14109a69"
+              target="_blank"
+            >
               <i class="fab fa-linkedin-in"></i>
             </a>
           </div>
@@ -130,6 +228,6 @@
     </footer>
 
     <!-- javascript -->
-      <script src="../js/main.js"></script>
-</body>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
